@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/', function () {
+/*Route::get('/', function () {
 //    return view('welcome');
     return redirect('/blog');
 });
@@ -36,4 +36,6 @@ Route::post('/auth/login', 'Auth\AuthController@postLogin');
 Route::get('/auth/logout', 'Auth\AuthController@getLogout');
 Route::auth();
 
-Route::get('/home', 'HomeController@index');
+Route::get('/home', 'HomeController@index');*/
+Route::get('/', 'HomeController@index');
+// Route::get('/{id}', 'HomeController');
