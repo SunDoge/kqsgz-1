@@ -2,3 +2,34 @@
 	margin:0;
 	padding:0;
 }
+header{
+	background:url(../images/top_bg.jpg) repeat-x left top;
+}
+.mainNav{
+	background:url(../images/nav_bg.jpg) repeat-x;
+	height:47px;
+}
+.top{
+	width:990px;
+	margin:0 auto;
+	height:150px;
+	position:relative;
+	background:url(../images/headbg.jpg) no-repeat center bottom
+}
+.top_logo{
+	float:left;
+}
+.top_nav{
+	width:990px;
+	position:relative;
+	margin:0 auto;
+}
+.top_nav li{
+	padding:0 10px;
+}
+.top_nav li a{
+	color:white;
+}
+.top_nav li a:hover{
+	color:black;
+}

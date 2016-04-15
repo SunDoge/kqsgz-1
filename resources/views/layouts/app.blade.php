@@ -16,11 +16,44 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-	<nav class="navbar navbar-default navbar-static-top">
+    <header>
+        <div class = "top">
+            <div class = "top_logo">
+                <img src="../images/logo.png">
+            </div>
+        </div>
+        <div class = "mainNav">
+            <ul class = "top_nav nav nav-pills">
+            <li><a href = "#" title = "网站主页">网站主页</a></li>
+            <li><a href = "#" title = "关于我们">关于我们</a></li>
+            <li><a href = "#" title = "新闻资讯">新闻资讯</a></li>
+            <li><a href = "#" title = "教育服务">教育服务</a></li>
+            <li><a href = "#" title = "团队精英">团队精英</a></li>
+            <li><a href = "#" title = "在线留言">在线留言</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class = "container">
+
+    </div>
+    <!-- Footer -->
+    <hr>
+    <footer>
+    	<p class="text-center">Copyright © 2015 广州喀秋莎文化发展有限公司 &nbsp;<a href="http://www.miitbeian.gov.cn/" target="_self" style="text-decoration: underline;"><span>粤ICP备15060592号</span>
+    	</a>&nbsp;<a href="#">电脑版</a>&nbsp; &nbsp;<a href="#" tppabs="http://m.kqsgz.com/">手机版</a>
+    	</p>
+    </footer>
+	<!-- JavaScripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</body>
+</html>
+<!--
+<nav class="navbar navbar-default navbar-static-top">
         <div class="container">
             <div class="navbar-header">
 
-                <!-- Collapsed Hamburger -->
+                <!-- Collapsed Hamburger 
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#app-navbar-collapse">
                     <span class="sr-only">Toggle Navigation</span>
                     <span class="icon-bar"></span>
@@ -28,14 +61,14 @@
                     <span class="icon-bar"></span>
                 </button>
 
-                <!-- Branding Image -->
+                <!-- Branding Image 
                 <a class="navbar-brand" href="{{ url('/') }}">
                     <img src="./images/logo.png">
                 </a>
           
             </div>
               <div class="collapse navbar-collapse" id="app-navbar-collapse">
-                    <!-- Left Side Of Navbar -->
+                    <!-- Left Side Of Navbar 
                     <ul class="nav navbar-nav">
                         <li>
                             <a href="#">网站主页</a>
@@ -60,30 +93,18 @@
         </div>
     </nav>
     
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-md-10 col-md-offset-1">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
                 <div class="col-md-12">
                     <div class="panel">
                         <img src="./images/11.jpg" class="img-responsive" style="width: 100%;" alt="广告位">
                     </div>
                 </div>
 
-				@yield('content')
+                @yield('content')
 
-			</div>
-		</div>
-	</div>
-
-    <!-- Footer -->
-    <hr>
-    <footer>
-    	<p class="text-center">Copyright © 2015 广州喀秋莎文化发展有限公司 &nbsp;<a href="http://www.miitbeian.gov.cn/" target="_self" style="text-decoration: underline;"><span>粤ICP备15060592号</span>
-    	</a>&nbsp;<a href="#">电脑版</a>&nbsp; &nbsp;<a href="#" tppabs="http://m.kqsgz.com/">手机版</a>
-    	</p>
-    </footer>
-	<!-- JavaScripts -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-</body>
-</html>
+            </div>
+        </div>
+    </div>
+-->
