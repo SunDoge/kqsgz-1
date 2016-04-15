@@ -10,6 +10,7 @@
 	<!-- Fonts -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel='stylesheet' type='text/css'>
+    <link href="./css/index.css" rel = "stylesheet" type="text/css">
 
     <!-- Styles -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
@@ -29,34 +30,33 @@
 
                 <!-- Branding Image -->
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    广州喀秋莎文化发展有限公司
+                    <img src="./images/logo.png">
                 </a>
+          
             </div>
-
-            <div class="collapse navbar-collapse" id="app-navbar-collapse">
-                <!-- Left Side Of Navbar -->
-                <ul class="nav navbar-nav">
-                    <li>
-						<a href="#">网站主页</a>
-					</li>
-					<li>
-						<a href="#">关于我们</a>
-					</li>
-					<li>
-						<a href="#">新闻资讯</a>
-					</li>
-					<li>
-						<a href="#">教育服务</a>
-					</li>
-					<li>
-						<a href="#">团队精英</a>
-					</li>
-					<li>
-						<a href="#">在线留言</a>
-					</li>
-                </ul>
-            </div>
-
+              <div class="collapse navbar-collapse" id="app-navbar-collapse">
+                    <!-- Left Side Of Navbar -->
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="#">网站主页</a>
+                        </li>
+                        <li>
+                            <a href="#">关于我们</a>
+                        </li>
+                        <li>
+                            <a href="#">新闻资讯</a>
+                        </li>
+                        <li>
+                            <a href="#">教育服务</a>
+                        </li>
+                        <li>
+                            <a href="#">团队精英</a>
+                        </li>
+                        <li>
+                            <a href="#">在线留言</a>
+                        </li>
+                    </ul>
+                </div>
         </div>
     </nav>
     
